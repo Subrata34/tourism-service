@@ -4,8 +4,9 @@ import { Button } from 'react-bootstrap-v5'
 const Registration = () => {
     return (
         <div>
-            <form action="">
-                <h1>Please Register </h1>
+            <h1>Please Register </h1>
+        <form action="" style={{}}>
+                
                 <label htmlFor="">Name :</label>
                 <br />
                 <input type="text"  />
