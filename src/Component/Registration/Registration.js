@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap-v5'
 
 const Registration = () => {
     return (
@@ -19,6 +20,8 @@ const Registration = () => {
                 <label htmlFor="">Retype password :</label>
                 <br />
                 <input type="password" />
+                <br />
+                <Button variant='secondary' >Submit</Button>
             </form>
         </div>
     )
