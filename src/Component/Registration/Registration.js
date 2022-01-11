@@ -5,6 +5,7 @@ const Registration = () => {
     return (
         <div>
             <form action="">
+                <h1>Please Register </h1>
                 <label htmlFor="">Name :</label>
                 <br />
                 <input type="text"  />
