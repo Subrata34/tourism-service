@@ -1,9 +1,11 @@
 import React from 'react'
 import { Button } from 'react-bootstrap-v5'
+import Header from '../Header/Header'
 
 const Login = () => {
     return (
         <div>
+            <Header></Header>
             <h1>Please Login </h1>
             <form action="" style={{}}>
                 
