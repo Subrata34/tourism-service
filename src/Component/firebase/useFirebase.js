@@ -19,4 +19,9 @@ const signInUsingGoogle=()=>{
         setError(error.message);
     })
 }
+return{
+    user,
+    error,
+    signInUsingGoogle
+}
 }
