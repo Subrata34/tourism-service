@@ -19,7 +19,8 @@ const Login = () => {
                 <input type="password" />
                 <br />
                
-                <Button variant='secondary' >Login</Button>
+                <Button variant='success' >Login</Button>
+                <Button variant='secondary'>LogOut</Button>
             </form>
         </div>
     )
