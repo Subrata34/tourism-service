@@ -3,6 +3,7 @@ import { Button } from 'react-bootstrap-v5'
 import Header from '../Header/Header'
 
 const Login = () => {
+    
     return (
         <div>
             <Header></Header>
@@ -22,6 +23,7 @@ const Login = () => {
                 <Button variant='success' >Login</Button>
                 <Button variant='secondary'>LogOut</Button>
             </form>
+            <Button variant="success" >Google sign In </Button>
         </div>
     )
 }
