@@ -25,3 +25,4 @@ return{
     signInUsingGoogle
 }
 }
+export default useFirebase
