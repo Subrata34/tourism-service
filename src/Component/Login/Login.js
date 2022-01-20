@@ -1,9 +1,10 @@
 import React from 'react'
 import { Button } from 'react-bootstrap-v5'
 import Header from '../Header/Header'
+import useFirebase from '../hooks/useFirebase'
 
 const Login = () => {
-    
+    const {signInUsingGoogle}=useFirebase();
     return (
         <div>
             <Header></Header>
@@ -21,9 +22,11 @@ const Login = () => {
                 <br />
                
                 <Button variant='success' >Login</Button>
+                <br />
                 <Button variant='secondary'>LogOut</Button>
             </form>
-            <Button variant="success" >Google sign In </Button>
+            <br />
+            <Button variant="success" onClick={signInUsingGoogle} >Google sign In </Button>
         </div>
     )
 }
