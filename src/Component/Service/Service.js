@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Card from '../Card/Card';
 import Header from '../Header/Header';
 import  img01 from '../image/img01.jpg'
 import  img02 from '../image/img02.jpg'
@@ -38,6 +39,11 @@ const Service = () => {
         <div>
             <Header></Header>
             <h1>This is services</h1>
+            {
+                products.map(data=><Card
+                data={data}
+                ></Card>)
+            }
         </div>
     )
 }
