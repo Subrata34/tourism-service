@@ -42,12 +42,16 @@ const Service = () => {
         <div>
             <Header></Header>
             
-            {
+            <Row xs={1} md={2} className="g-4">
+  
+     {
                 person.map(data=><Card
                 data={data}
                 ></Card>)
             }
-        </div>
+
+</Row>
+</div>
     )
 }
 
