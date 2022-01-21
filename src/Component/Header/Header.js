@@ -14,7 +14,7 @@ const Header = () => {
                <Link to="/register"><li className='items'>Register</li></Link>
                 <Link to="/login"><li className='items'>Login</li></Link>
                 <p style={{color:"white"}}>{user.displayName}</p>
-                <img style={{width:"20px",margin:"10px"}} src={user.photoURL} alt="" />
+                <img style={{width:"40px",margin:"2px"}} src={user.photoURL} alt="" />
                 {user?.email&&<Button variant="primary" onClick={logout}>Logout</Button>}
                 
             </ul>
