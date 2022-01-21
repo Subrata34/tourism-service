@@ -1,7 +1,8 @@
 import React from 'react'
 import { Button } from 'react-bootstrap-v5'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import useFirebase from '../hooks/useFirebase'
+
 import './Header.css'
 
 const Header = () => {
