@@ -1,10 +1,17 @@
 import React from 'react';
 
 const Card = (props) => {
-    const {name,img,price }=data.props;
+    const {name,img,price }=props.data
+    console.log(props.data)
   return (
       
-      <h2>{name}</h2>
+      <div>
+          <h1>Our Products Service </h1>
+          <div>
+              <h1>{name}</h1>
+          </div>
+          
+      </div>
   );
 };
 
